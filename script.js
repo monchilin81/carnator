@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         carDescriptionElement.textContent = result.description;
         // Assuming images are in an 'images' folder relative to index.html
         // If image_url is a full path or different structure, adjust this.
-        carImageElement.src = `images/${result.image_url}`; 
+        carImageElement.src = `${result.image_url}`; 
         carImageElement.alt = result.car_name;
 
         restartButtonElement.style.display = 'block';
