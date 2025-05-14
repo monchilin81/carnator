@@ -1,0 +1,186 @@
+{
+  "question": "¿Dispones de 200.000€ o más para tu coche ideal?",
+  "options": {
+    "Sí": {
+      "question": "Excelente. ¿Hacia qué marca te inclinas principalmente?",
+      "options": {
+        "Porsche": {
+          "question": "Porsche es una gran elección. ¿Qué tipo de Porsche te interesa?",
+          "options": {
+            "SUV": {
+              "question": "¿Qué modelo de SUV Porsche prefieres?",
+              "options": {
+                "Cayenne": {
+                  "question": "¿Qué versión del Cayenne buscas?",
+                  "options": {
+                    "Turbo GT": { "result": { "car_name": "Porsche Cayenne Turbo GT", "image_url": "cayenne_turbo_gt.jpg", "description": "El SUV más deportivo y radical de Porsche, con prestaciones de superdeportivo." } },
+                    "GTS": { "result": { "car_name": "Porsche Cayenne GTS", "image_url": "cayenne_gts.jpg", "description": "Equilibrio perfecto entre deportividad y usabilidad diaria en formato SUV." } },
+                    "E-Hybrid Coupé": { "result": { "car_name": "Porsche Cayenne E-Hybrid Coupé", "image_url": "cayenne_e_hybrid_coupe.jpg", "description": "Eficiencia y deportividad con un diseño coupé y tecnología híbrida enchufable." } }
+                  }
+                },
+                "Macan": {
+                  "question": "¿Qué versión del Macan buscas?",
+                  "options": {
+                    "Macan GTS": { "result": { "car_name": "Porsche Macan GTS", "image_url": "macan_gts.jpg", "description": "El Macan más enfocado a la conducción deportiva, ágil y potente." } }
+                  }
+                }
+              }
+            },
+            "Deportivo": {
+              "question": "En deportivos Porsche, ¿prefieres transmisión manual, automática o te inclinas por un eléctrico?",
+              "options": {
+                "Manual": {
+                  "question": "¿Qué modelo deportivo manual de Porsche te atrae más?",
+                  "options": {
+                    "911 Carrera / GTS (991)": { "result": { "car_name": "Porsche 911 Carrera / GTS (generación 991)", "image_url": "911_carrera_gts_991_manual.jpg", "description": "La pureza de la conducción de un 911 con cambio manual, en versiones Carrera o GTS de la aclamada generación 991." } },
+                    "911 GT3 Touring": { "result": { "car_name": "Porsche 911 GT3 Touring", "image_url": "911_gt3_touring.jpg", "description": "Un GT3 con un enfoque más discreto y purista, con cambio manual y sin el gran alerón trasero." } },
+                    "911R": { "result": { "car_name": "Porsche 911R", "image_url": "911r.jpg", "description": "Una edición limitada muy especial, enfocada en la experiencia de conducción pura con cambio manual." } }
+                  }
+                },
+                "Automático (PDK)": {
+                  "question": "¿Qué modelo deportivo con cambio automático PDK de Porsche es tu preferido?",
+                  "options": {
+                    "911 Carrera S / GTS (992)": { "result": { "car_name": "Porsche 911 Carrera S / GTS (generación 992) PDK", "image_url": "911_carrera_s_gts_992_pdk.jpg", "description": "La última generación del 911 en versiones Carrera S o GTS, con la rapidísima y eficaz transmisión PDK." } },
+                    "911 Turbo S (992)": { "result": { "car_name": "Porsche 911 Turbo S (generación 992)", "image_url": "911_turbo_s_992.jpg", "description": "El pináculo de la gama 911 en cuanto a prestaciones y tecnología, un auténtico superdeportivo para el día a día." } }
+                  }
+                },
+                "Eléctrico": {
+                  "question": "¿Qué deportivo eléctrico de Porsche te llama la atención?",
+                  "options": {
+                    "Taycan 4S": { "result": { "car_name": "Porsche Taycan 4S", "image_url": "taycan_4s.jpg", "description": "Prestaciones eléctricas impresionantes con el ADN deportivo de Porsche y tracción total." } },
+                    "Taycan GTS": { "result": { "car_name": "Porsche Taycan GTS", "image_url": "taycan_gts.jpg", "description": "La versión GTS del Taycan, que combina un gran rendimiento con una mayor autonomía y un carácter deportivo acentuado." } }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Lamborghini": {
+          "question": "Lamborghini, pura pasión italiana. ¿Buscas un SUV o un deportivo?",
+          "options": {
+            "SUV": {
+              "question": "El SUV de Lamborghini es el Urus. ¿Es esta tu elección?",
+              "options": {
+                "Sí, Urus": { "result": { "car_name": "Lamborghini Urus", "image_url": "urus.jpg", "description": "El primer Super SUV del mundo, combinando el alma de un superdeportivo con la funcionalidad de un SUV." } }
+              }
+            },
+            "Deportivo": {
+              "question": "En deportivos Lamborghini, ¿te inclinas por el Huracán EVO RWD?",
+              "options": {
+                "Sí, Huracán EVO RWD": { "result": { "car_name": "Lamborghini Huracán EVO RWD", "image_url": "huracan_evo_rwd.jpg", "description": "La emoción de la tracción trasera en un Huracán, para una experiencia de conducción más pura y exigente." } }
+              }
+            }
+          }
+        },
+        "Aston Martin": {
+          "question": "Aston Martin, elegancia y deportividad británica. ¿Prefieres un SUV o un deportivo?",
+          "options": {
+            "SUV": {
+              "question": "El SUV de Aston Martin es el DBX. ¿Te interesa la versión V8?",
+              "options": {
+                "Sí, DBX V8": { "result": { "car_name": "Aston Martin DBX V8", "image_url": "dbx_v8.jpg", "description": "Lujo, prestaciones y el inconfundible estilo Aston Martin en formato SUV con motor V8." } }
+              }
+            },
+            "Deportivo": {
+              "question": "En deportivos Aston Martin, ¿el Vantage V8 es tu elección?",
+              "options": {
+                "Sí, Vantage V8": { "result": { "car_name": "Aston Martin Vantage V8", "image_url": "vantage_v8.jpg", "description": "Un deportivo ágil y emocionante con un diseño espectacular y el carácter de un motor V8 biturbo." } }
+              }
+            }
+          }
+        },
+        "Mercedes-AMG": {
+          "question": "Mercedes-AMG, potencia y lujo alemán. ¿Buscas un Coupé o una Berlina deportiva?",
+          "options": {
+            "Coupé": {
+              "question": "El coupé deportivo de AMG que encaja sería el GT C. ¿Es lo que buscas?",
+              "options": {
+                "Sí, AMG GT C Coupé": { "result": { "car_name": "Mercedes-AMG GT C Coupé", "image_url": "amg_gt_c_coupe.jpg", "description": "Un coupé biplaza con un diseño imponente y prestaciones de infarto gracias a su motor V8 biturbo." } }
+              }
+            },
+            "Berlina": {
+              "question": "La berlina superdeportiva de AMG es el GT 63 S 4MATIC+. ¿Te interesa?",
+              "options": {
+                "Sí, AMG GT 63 S": { "result": { "car_name": "Mercedes-AMG GT 63 S 4MATIC+", "image_url": "amg_gt_63s.jpg", "description": "Una berlina de cuatro puertas con prestaciones de supercoche, capaz de combinar lujo, confort y una dinámica brutal." } }
+              }
+            }
+          }
+        },
+        "Range Rover": {
+          "question": "Range Rover, lujo y capacidad todoterreno. ¿Te interesa la línea Sport o el lujo puro del Autobiography?",
+          "options": {
+            "Sport": {
+              "question": "Dentro de la línea Sport, ¿buscas la máxima deportividad del SV?",
+              "options": {
+                "Sí, Range Rover Sport SV": { "result": { "car_name": "Range Rover Sport SV", "image_url": "range_rover_sport_sv.jpg", "description": "El Range Rover más rápido y dinámico jamás creado, con tecnología de suspensión neumática 6D Dynamics." } }
+              }
+            },
+            "Lujo Puro (Autobiography)": {
+              "question": "El pináculo del lujo es el Range Rover Autobiography SV. ¿Es tu elección?",
+              "options": {
+                "Sí, Range Rover Autobiography SV": { "result": { "car_name": "Range Rover Autobiography SV", "image_url": "range_rover_autobiography_sv.jpg", "description": "Máximo lujo, refinamiento y personalización en el buque insignia de Range Rover." } }
+              }
+            }
+          }
+        },
+        "Bentley": {
+          "question": "Bentley, artesanía y prestaciones británicas. ¿Prefieres un SUV o un deportivo/gran turismo?",
+          "options": {
+            "SUV": {
+              "question": "El SUV de Bentley es el Bentayga. ¿Te interesa la versión V8 o la Hybrid?",
+              "options": {
+                "Bentayga V8": { "result": { "car_name": "Bentley Bentayga V8", "image_url": "bentayga_v8.jpg", "description": "Lujo y prestaciones en formato SUV con el característico motor V8 de Bentley." } },
+                "Bentayga Hybrid": { "result": { "car_name": "Bentley Bentayga Hybrid", "image_url": "bentayga_hybrid.jpg", "description": "La opción híbrida enchufable del Bentayga, que combina eficiencia con el lujo habitual de la marca." } }
+              }
+            },
+            "Deportivo (Continental GT)": {
+              "question": "El gran turismo deportivo de Bentley es el Continental GT. ¿Es tu elección?",
+              "options": {
+                "Sí, Continental GT": { "result": { "car_name": "Bentley Continental GT", "image_url": "continental_gt.jpg", "description": "Un gran turismo icónico que combina lujo, prestaciones y un diseño atemporal." } }
+              }
+            }
+          }
+        },
+        "Otras Marcas (Audi, BMW, Tesla, Chinas)": {
+          "question": "Exploremos otras marcas. ¿Alguna de estas te interesa: Audi, BMW, Tesla o alguna marca china emergente?",
+          "options": {
+            "Audi": {
+              "question": "En Audi, con este presupuesto, el RS Q8 es una opción destacada. ¿Te interesa?",
+              "options": {
+                "Sí, Audi RS Q8": { "result": { "car_name": "Audi RS Q8", "image_url": "audi_rsq8.jpg", "description": "Un SUV coupé de altas prestaciones con motor V8 biturbo y el sello deportivo de Audi Sport." } }
+              }
+            },
+            "BMW": {
+              "question": "En BMW, el M5 Competition es una berlina superdeportiva de referencia. ¿Es lo que buscas?",
+              "options": {
+                "Sí, BMW M5 Competition": { "result": { "car_name": "BMW M5 Competition", "image_url": "bmw_m5_competition.jpg", "description": "Una berlina de altas prestaciones que combina lujo, tecnología y una dinámica de conducción excepcional." } }
+              }
+            },
+            "Tesla": {
+              "question": "Tesla ofrece vehículos eléctricos de altas prestaciones. ¿Prefieres un SUV (Model X Plaid) o una berlina deportiva (Model S Plaid)?",
+              "options": {
+                "SUV (Model X Plaid)": { "result": { "car_name": "Tesla Model X Plaid", "image_url": "model_x_plaid.jpg", "description": "El SUV más rápido del mundo, con una aceleración brutal y tecnología de vanguardia." } },
+                "Deportivo (Model S Plaid)": { "result": { "car_name": "Tesla Model S Plaid", "image_url": "model_s_plaid.jpg", "description": "Una berlina con prestaciones de hypercar, capaz de acelerar de 0 a 100 km/h en unos 2 segundos." } }
+              }
+            },
+            "Marcas Chinas (BYD, Xiaomi, etc.)": {
+              "question": "Las marcas chinas están emergiendo con propuestas interesantes. ¿Te gustaría explorar opciones de BYD, Xiaomi u otras?",
+              "options": {
+                "Sí, explorar marcas chinas": { "result": { "car_name": "Coche de marca china (BYD, Xiaomi, etc.)", "image_url": "chinese_brand_car.jpg", "description": "Modelos innovadores y tecnológicos de marcas emergentes chinas. Se requiere especificar preferencias para acotar." } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "No": {
+      "question": "Entendido. Podemos explorar opciones en otros rangos de precio. ¿Te gustaría que busquemos en la gama de 100.000€ a 150.000€, o en la de 60.000€ a 90.000€?",
+      "options": {
+        "100.000€ - 150.000€": { "result": { "car_name": "Explorar gama 100k-150k€", "image_url": "placeholder_100_150k.jpg", "description": "Se explorarán opciones de vehículos en el rango de precios de 100.000€ a 150.000€." } },
+        "60.000€ - 90.000€": { "result": { "car_name": "Explorar gama 60k-90k€", "image_url": "placeholder_60_90k.jpg", "description": "Se explorarán opciones de vehículos en el rango de precios de 60.000€ a 90.000€." } },
+        "Otro rango / No estoy seguro": { "result": { "car_name": "Necesitas más ayuda para definir presupuesto", "image_url": "placeholder_budget_help.jpg", "description": "Podemos ayudarte a definir mejor tu presupuesto y preferencias." } }
+      }
+    }
+  }
+}
+

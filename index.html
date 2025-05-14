@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinator de Coches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <p id="question-counter"></p>
+        <div id="game-area">
+            <h2 id="question-text"></h2>
+            <div id="options-container">
+                <!-- Las opciones se generarán aquí por JavaScript -->
+            </div>
+            <div id="result-area" style="display: none;">
+                <h3>¡Tu coche ideal podría ser!</h3>
+                <img id="car-image" src="" alt="Coche Recomendado">
+                <p id="car-name"></p>
+                <p id="car-description"></p>
+            </div>
+        </div>
+        <button id="restart-button" style="display: none;">Volver a empezar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
